@@ -1,3 +1,5 @@
+import request from "../../util/request"
+
 // pages/detail/detail.js
 Page({
 
@@ -5,16 +7,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    info: null,
+    current: 0,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    console.log(`基于上个页面传来的id, 跟后端取当前页面id对应的详细信息`, options)
+    //console.log(`基于上个页面传来的id, 跟后端取当前页面id对应的详细信息`, options)
+    wx.setNavigationBarTitle({
+      title: options.name
+    })
+    this.getDetailInfo(options.id)
   },
-
+  getDetailInfo(id) {
+    request({
+      url: `/goods/${id}`
+    }).then(res => {
+      this.setData({
+        info: res
+      })
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -62,5 +77,17 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  handleTap(evt) {
+    //全屏预览功能
+    wx.previewImage({
+      current: evt.target.dataset.current,
+      urls: this.data.info.slides.map(item => `http://localhost:3000${item}`),
+    })
+  },
+  handleActive(evt) {
+    this.setData({
+      current: evt.target.dataset.index
+    })
   }
 })
