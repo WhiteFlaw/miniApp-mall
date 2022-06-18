@@ -1,0 +1,604 @@
+{
+  "recommends": [
+    {
+      "id": 1,
+      "title": "ThinkPad",
+      "url": "/images/0/a.jpg"
+    },
+    {
+      "id": 2,
+      "title": "厨卫品类日",
+      "url": "/images/0/b.jpg"
+    },
+    {
+      "id": 3,
+      "title": "超级品牌日",
+      "url": "/images/0/c.jpg"
+    },
+    {
+      "id": 4,
+      "title": "一次性口罩",
+      "url": "/images/0/d.jpg"
+    }
+  ],
+  "goods": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "title": "XiaoMi (RedMi) 8A",
+      "feature": "麒麟810 4000mAh续航4800万超清夜拍6.59英寸升降全面屏全网通6GB+64GB魅海蓝",
+      "price": 1299,
+      "goodcomment": "81%",
+      "poster": "/images/1/poster.jpg",
+      "slides": [
+        "/images/1/detail_1.jpg",
+        "/images/1/detail_2.jpg",
+        "/images/1/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "categoryId": "2",
+      "title": "荣耀9X",
+      "feature": "麒麟810 4000mAh续航4800万超清夜拍6.59英寸升降全面屏全网通6GB+64GB魅海蓝",
+      "price": 1299,
+      "goodcomment": "69%",
+      "poster": "/images/2/poster.jpg",
+      "slides": [
+        "/images/2/detail_1.jpg",
+        "/images/2/detail_2.jpg",
+        "/images/2/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "categoryId": "3",
+      "title": "三星 Galaxy S20+",
+      "feature": "麒麟810 4000mAh续航4800万超清夜拍6.59英寸升降全面屏全网通6GB+64GB魅海蓝",
+      "price": 1299,
+      "goodcomment": "81%",
+      "poster": "/images/3/poster.jpg",
+      "slides": [
+        "/images/3/detail_1.jpg",
+        "/images/3/detail_2.jpg",
+        "/images/3/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "categoryId": 4,
+      "title": "荣耀20X",
+      "feature": "超长续航震撼大音量AI人脸解锁",
+      "price": 749,
+      "goodcomment": "44%",
+      "poster": "/images/4/poster.jpg",
+      "slides": [
+        "/images/4/detail_1.jpg",
+        "/images/4/ detail_2.jpg",
+        "/images/4/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "categoryId": 5,
+      "title": "小米(MI) Redmi 8A",
+      "feature": "超长续航震撼大音量AI人脸解锁",
+      "price": 749,
+      "goodcomment": "87%",
+      "poster": "/images/4/poster.jpg",
+      "slides": [
+        "/images/5/detail_1.jpg",
+        "/images/5/ detail_2.jpg",
+        "/images/5/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "categoryId": 6,
+      "title": "荣耀20青春版",
+      "feature": "超长续航震撼大音量AI人脸解锁",
+      "price": 749,
+      "goodcomment": "76%",
+      "poster": "/images/6/poster.jpg",
+      "slides": [
+        "/images/6/detail_1.jpg",
+        "/images/6/ detail_2.jpg",
+        "/images/6/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "categoryId": 7,
+      "title": "Apple iphone11",
+      "feature": "超长续航震撼大音量AI人脸解锁",
+      "price": 749,
+      "goodcomment": "77%",
+      "poster": "/images/7/poster.jpg",
+      "slides": [
+        "/images/7/detail_1.jpg",
+        "/images/7/ detail_2.jpg",
+        "/images/7/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "categoryId": 8,
+      "title": "小米(MI) Redmi 8A",
+      "feature": "超长续航震撼大音量AI人脸解锁",
+      "price": 749,
+      "goodcomment": "88%",
+      "poster": "/images/8/poster.jpg",
+      "slides": [
+        "/images/8/detail_1.jpg",
+        "/images/8/ detail_2.jpg",
+        "/images/8/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "categoryId": 9,
+      "title": "小米(MI) Redmi 8A",
+      "feature": "超长续航震撼大音量AI人脸解锁",
+      "price": 749,
+      "goodcomment": "89%",
+      "poster": "/images/9/poster.jpg",
+      "slides": [
+        "/images/9/detail_1.jpg",
+        "/images/9/ detail_2.jpg",
+        "/images/9/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ]
+    },
+    {
+      "id": "10",
+      "categoryId": 10,
+      "title": "小米(MI) Redmi 8A",
+      "feature": "超长续航震撼大音量AI人脸解锁",
+      "price": 749,
+      "goodcomment": "41%",
+      "poster": "/images/10/poster.jpg",
+      "slides": [
+        "/images/10/detail_1.jpg",
+        "/images/10/ detail_2.jpg",
+        "/images/10/detail_3.jpg"
+      ],
+      "desc": [
+        "https://s3.bmp.ovh/imgs/2022/06/18/e99dbdfa3ba19803.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/c33e0827af202135.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/98050b748d972327.jpg",
+        "https://s3.bmp.ovh/imgs/2022/06/18/fc5fd1e85278591e.jpg"
+      ],
+      "comments": [
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-1-2 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar1.jpg",
+          "nickname": "AK-12",
+          "imgUrl": "#"
+        },
+        {
+          "content": "质量不错.",
+          "creationTime": "2021-9-4 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar2.jpg",
+          "nickname": "AN-94",
+          "imgUrl": "#"
+        },
+        {
+          "content": "拍照效果很好, 运行速度很快.",
+          "creationTime": "2021-4-16 12:04:16",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar3.jpg",
+          "nickname": "HK416",
+          "imgUrl": "#"
+        },
+        {
+          "content": "手机用了觉得很不错,发货也挺快的.",
+          "creationTime": "2021-5-26 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar4.jpg",
+          "nickname": "OBR",
+          "imgUrl": "#"
+        },
+        {
+          "content": "用着不错.",
+          "creationTime": "2021-1-14 12:41:04",
+          "score": "4",
+          "userImageUrl": "/avatar/avatar5.jpg",
+          "nickname": "OTS-14",
+          "imgUrl": "#"
+        }
+      ]
+    }
+  ]
+}
