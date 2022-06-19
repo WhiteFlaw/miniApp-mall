@@ -98,5 +98,10 @@ Page({
     this.setData({
       current: evt.target.dataset.index
     })
+  },
+  toShopcar() {
+    wx.switchTab({
+      url: '/pages/shopcar/shopcar',
+    })
   }
 })
