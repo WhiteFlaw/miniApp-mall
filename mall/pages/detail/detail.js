@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    info: null,
+    goods: null,
     current: 0,
   },
 
@@ -26,7 +26,7 @@ Page({
       url: `/goods/${id}`
     }).then(res => {
       this.setData({
-        info: res
+        goods: res
       })
     })
   },
@@ -82,7 +82,16 @@ Page({
     //全屏预览功能
     wx.previewImage({
       current: evt.target.dataset.current,
-      urls: this.data.info.slides.map(item => `http://localhost:3000${item}`),
+      urls: this.data.goods.slides.map(item => `http://localhost:3000${item}`),
+    })
+  },
+  commentTap(evt) {
+    //全屏预览功能
+    var id = evt.target.dataset.current[1];
+    console.log(id)
+    wx.previewImage({
+      current: evt.target.dataset.current[0],
+      urls: this.data.goods.comments[id].imgUrl.map(item => `http://localhost:3000${item}`),
     })
   },
   handleActive(evt) {
