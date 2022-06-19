@@ -1,0 +1,3 @@
+<!--pages/search/search.wxml-->
+<mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+<!--search要传一个函数, 每次输入都调用这个函数,实时搜索最新的结果-->
