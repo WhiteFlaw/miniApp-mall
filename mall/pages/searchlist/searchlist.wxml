@@ -1,0 +1,9 @@
+<!--pages/searchlist/searchlist.wxml-->
+<view>
+  <view wx:for="{{goodList}}" wx:key="index" class="good">
+    <image src="http://localhost:3000{{item.poster}}" mode="widthFix"></image>
+    <view>{{item.title}}</view>
+    <view style="color:rgb(255, 123, 0);">￥: {{item.price}}</view>
+    <view>好评率: {{item.goodcomment}}</view>
+  </view>
+</view>
