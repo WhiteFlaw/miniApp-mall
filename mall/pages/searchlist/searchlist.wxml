@@ -1,5 +1,14 @@
 <!--pages/searchlist/searchlist.wxml-->
-<view>
+
+<view class="sortlist">
+  <view bindtap="handlePrice" class="{{current === 0 ? 'active' : '' }}">价格排序
+    <mp-icon type="refresh" color="black" size="{{25}}"></mp-icon>
+  </view>
+  <view bindtap="handleComment" class="{{current === 1 ? 'active' : '' }}">好评排序<mp-icon type="refresh" color="black" size="{{25}}"></mp-icon>
+  </view>
+</view>
+<!--或许可以通过遍历商品数据数组并且排序来实现-->
+<view class="goodcontainer">
   <view wx:for="{{goodList}}" wx:key="index" class="good">
     <image src="http://localhost:3000{{item.poster}}" mode="widthFix"></image>
     <view>{{item.title}}</view>

@@ -1,1 +1,27 @@
 /* pages/category/category.wxss */
+
+page {
+    background-color: #FFFFFF;
+    height: 100%;         /* 页面没高度点击不能滚动商品, 这是vtabs组件特性 */
+}
+
+.vtabs-content-item {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.vtabs-content-item .item {
+    width: 50%;
+    padding: 30rpx;
+    box-sizing: border-box;
+}
+
+.item image {
+    width: 200rpx;
+}
+
+.item view {
+    text-align: center;
+    font-size: 13px;
+}

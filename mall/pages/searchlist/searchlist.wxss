@@ -14,3 +14,19 @@
 .good image {
   width: 100rpx;
 }
+
+.sortlist {
+  display: flex;
+  height:100rpx;
+  line-height: 100rpx;
+  background-color: rgb(240, 240, 240);
+}
+
+.sortlist view {
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color:red;
+}

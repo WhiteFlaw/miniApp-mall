@@ -1,2 +1,14 @@
 <!--pages/category/category.wxml-->
-<text>pages/category/category.wxml</text>
+<mp-vtabs vtabs="{{vtabs}}" activeTab="{{activeTab}}" bindtabclick="onTabCLick" bindchange="onChange" class="test">
+  <block wx:for="{{vtabs}}" wx:key="title">
+    <mp-vtabs-content tabIndex="{{index}}">
+    <view class="vtabs-content-item">
+      <view wx:for="{{item.goods}}" wx:key="id" class="item" bindtap="handleTap" data-id="{{item.id}}" data-name="{{item.name}}">
+        <image src="http://localhost:3000{{item.poster}}" mode="widthFix"/>
+        <view>{{item.title}}</view>
+      </view>
+    </view>
+    </mp-vtabs-content>
+  </block>
+</mp-vtabs>
+<!-- 需要使用组件的话先去找小程序自带的组件库, 没有就去找weui, 这里weui里面的vtabs可以实现左侧纵向导航栏 -->

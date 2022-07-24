@@ -17,8 +17,15 @@
         },
         {
           "name": "",
-          "pathName": "pages/detail/detail",
+          "pathName": "pages/search/search",
           "query": "name=荣耀9x&id=1",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/category/category",
+          "query": "",
           "launchMode": "default",
           "scene": null
         }
