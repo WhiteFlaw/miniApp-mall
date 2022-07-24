@@ -1,0 +1,17 @@
+{
+  "name": "mall",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "@miniprogram-component-plus/sticky": "^1.0.1",
+    "miniprogram-sm-crypto": "^0.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
