@@ -1,0 +1,2 @@
+<!--components/search/search.wxml-->
+<input type="text" placeholder="输入您要搜索的商品" bindtap="handleTap" />

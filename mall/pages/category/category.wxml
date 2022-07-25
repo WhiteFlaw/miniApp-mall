@@ -1,0 +1,2 @@
+<!--pages/category/category.wxml-->
+<!-- 需要使用组件的话先去找小程序自带的组件库, 没有就去找weui, 这里weui里面的vtabs可以实现左侧纵向导航栏 -->

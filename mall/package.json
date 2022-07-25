@@ -1,0 +1,20 @@
+{
+  "name": "mall",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "@miniprogram-component-plus/sticky": "^1.0.1",
+    "@miniprogram-component-plus/vtabs": "^1.0.0",
+    "@miniprogram-component-plus/vtabs-content": "^1.0.0",
+    "miniprogram-sm-crypto": "^0.3.8",
+    "weui": "^2.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

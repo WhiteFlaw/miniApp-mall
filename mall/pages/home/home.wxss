@@ -1,0 +1,22 @@
+/* pages/home/home.wxss */
+swiper image {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 100%;
+}
+
+swiper {
+  height: 297rpx;
+  background-color: #000;
+}
+
+.goodbox {
+  padding: 10rpx;
+  overflow: hidden;
+}
+
+.goodbox image {
+  width: 200rpx;
+  float: left;
+}
