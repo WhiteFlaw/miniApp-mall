@@ -1,3 +1,4 @@
+import checkAuth from "../../util/auth"
 import request from "../../util/request"
 
 // pages/detail/detail.js
@@ -15,7 +16,7 @@ Page({
     this.getDetailInfo(options.id)
   },
 
-  getDetailInfo(id) {
+  getDetailInfo: function (id) {
     request({
       url: `/goods/${id}`
     }).then(res => {
@@ -25,7 +26,7 @@ Page({
     })
   },
 
-  handleTap(evt) {
+  handleTap: function (evt) {
     //全屏预览功能
     wx.previewImage({
       current: evt.target.dataset.current,
@@ -33,7 +34,7 @@ Page({
     })
   },
 
-  commentTap(evt) {
+  commentTap: function (evt) {
     //全屏预览功能
     var id = evt.target.dataset.current[1];
     console.log(id)
@@ -43,15 +44,21 @@ Page({
     })
   },
 
-  handleActive(evt) {
+  handleActive: function (evt) {
     this.setData({
       current: evt.target.dataset.index
     })
   },
 
-  toShopcar() {
+  toShopcar: function () {
     wx.switchTab({
       url: '/pages/shopcar/shopcar',
+    })
+  },
+
+  handleAdd: function () {
+    checkAuth(() => {
+      console.log("请求加入购物车");
     })
   }
 })

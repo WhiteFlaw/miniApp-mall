@@ -9,7 +9,7 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/detail/detail",
+          "name": "pages/telform/telform",
           "pathName": "pages/detail/detail",
           "query": "name=11111&id=1",
           "launchMode": "default",

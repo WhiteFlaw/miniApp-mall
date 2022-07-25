@@ -43,7 +43,7 @@
   </view>
 </view>
 <view  class="bottom">
-  <view class="bottom_toShopcar" bindtap="toShopcar">购物车</view>
-  <view class="bottom_addtoShopcar" bindtap="addToShopCar">加入购物车</view>
+  <view class="bottom_toShopcar">购物车</view>
+  <view class="bottom_addtoShopcar" bindtap="handleAdd">加入购物车</view>
   <view class="bottom_getNow" bindtap="getNow">立即下单</view>
 </view>
